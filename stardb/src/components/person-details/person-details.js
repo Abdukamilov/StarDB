@@ -9,21 +9,21 @@ export default class PersonDetails extends Component {
                 <img className="person-image" src="https://starwars-visualguide.com/assets/img/characters/3.jpg" alt="R2-D2" />
                 <div className="card-body">
                     <h4>R2-D2</h4>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item">
+                            <span className="term">Gender</span>
+                            <span>male</span>
+                        </li>
+                        <li className="list-group-item">
+                            <span className="term">Dirth Year</span>
+                            <span>43</span>
+                        </li>
+                        <li className="list-group-item">
+                            <span className="term">Eye Color</span>
+                            <span>Red</span>
+                        </li>
+                    </ul>
                 </div>
-                <ul className="list-group list-group-flush">
-                    <li className="list-group-item">
-                        <span className="term">Gender</span>
-                        <span>male</span>
-                    </li>
-                    <li className="list-group-item">
-                        <span className="term">Dirth Year</span>
-                        <span>43</span>
-                    </li>
-                    <li className="list-group-item">
-                        <span className="term">Eye Color</span>
-                        <span>Red</span>
-                    </li>
-                </ul>
             </div>
         )
     }
